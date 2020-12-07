@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
-import Home from "../components/Home";
-import { addToCart, removeToCart } from "../services/Actions/actions";
+import Home from "components/Home";
+import { addToCart, removeToCart } from "services/Actions/actions";
 
 const mapStateToProps = (state) => ({
   // cardData: state.cardItems,
